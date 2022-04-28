@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+      <div id="nav">
+       <div id="right">
+           <div onclick="window.location.href='index.html'">
+               
+               <h3 >HOME</h3>
+            
+           </div>
+           <div onclick="window.location.href='login.html'">
+            <h3>Login</h3>
+
+           </div>
+           <div onclick="window.location.href='signup.html'">
+            <h3>Signup</h3>
+
+           </div>
+
+       </div>
+      </div>
+      <div id="slideshow">
+          <img style="width:100%;height:100%;" src="" id="imgg"/>
+    </div>
+
+
+
+        <div id="sort-buttons">
+            
+            <select name="" id="sort--btn" onchange="sortMovie()">
+                <option value="abc">Sort By Rating</option>
+                <option id="sort-lh" value="asc">Low To High</option>
+                <option id="sort-hl" value="dec">High To Low</option>
+
+            </select>
+            
+        </div>
+        <div id="movies">
+            <!--Show list of movies here-->
+        </div>
+
+
+
+
+    </body>
+
+</html>
+<script src="scripts/index.js"></script>
