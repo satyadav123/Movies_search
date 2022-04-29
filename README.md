@@ -32,12 +32,14 @@ Nuakri.com is a very famous site for finding a relevant job according to your sk
 
 - `Landing Page`: Navbars, categories and footer section.
 - `Sign-In Page`: User confirmation to check whether user email and password match with details existing in the database.
+- `Home page`: On home page user can see all trending movies.
 
  
 ## How To Use ✅
 
 - At First user has to click on login on landing page. User have to signup if he does not have an account. In signup page user has to  fill  all the fields in the form.
-- After signup user has to login with same details, otherwise it will show invalid credentials..
+- After signup user has to login with same details, otherwise it will show invalid credentials.
+- see all trending movies and user also can filter by movies name
 
 
 
